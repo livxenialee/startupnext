@@ -7,7 +7,7 @@ const About = () => {
 
     <div className={styles.page}>
         <h1>About us</h1>
-        <p>Welcome to the About Page!</p>
+        <p>Welcome to the About Page!!</p>
     </div>
 
   )
