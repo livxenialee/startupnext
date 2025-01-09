@@ -9,6 +9,16 @@ const compat = new FlatCompat({
   baseDirectory: __dirname,
 });
 
+module.exports = {
+  parser: '@babel/eslint-parser', // or '@typescript-eslint/parser' for TypeScript
+  parserOptions: {
+    ecmaVersion: 2020,
+  },
+  rules: {
+    'semi': 'error',
+  },
+};
+
 const eslintConfig = [...compat.extends("next/core-web-vitals")];
 
 export default eslintConfig;

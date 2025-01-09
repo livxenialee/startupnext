@@ -3,7 +3,7 @@ import topImage from '../../public/assets/website-top.jpg'
 import desktopstyle from '../components/styles/desktop.module.scss'
 import Footer from "./Footer";
 import Modal from "./Modal";
-import { Fragment, useState } from "react";
+import { useState } from "react";
 import { gsap } from "gsap";
 
 const DesktopView = ({item}) => {
