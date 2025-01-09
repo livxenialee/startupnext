@@ -1,9 +1,6 @@
 "use client"; // CSR - client baseret (server kan ikke læse javascript)
 // hvis den ikke er client baseret er den SSR
 
-import Image from "next/image";
-import styles from "./page.module.scss";
-
 import Content from "@/components/Content";
 
 export default function Home() {
