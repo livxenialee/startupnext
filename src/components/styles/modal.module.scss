@@ -1,0 +1,26 @@
+.modal {
+    position: absolute;
+    width: calc(15em + 15vw);
+    height: calc(15em + 15vw);
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #ef9acd;
+    box-shadow: #666 1px 1px 1px;
+    color: white;
+    line-height: 2rem;
+}
+
+#close {
+    position: relative;
+    height: auto;
+    text-align: right;
+    padding: 2%;
+
+    img {
+        cursor: pointer;
+    }
+}
+
+#text {
+    padding-left: 2%;
+}
