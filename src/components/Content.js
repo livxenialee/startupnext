@@ -4,7 +4,7 @@ import DesktopView from "./DesktopView";
 import MobileView from "./MobileView";
 import React from 'react'
 //import { useEffect ,useState } from "react";
-import windowWidth from "@/hooks/windowWidth";
+import windowWidth from "@/hooks/UseWindowWidth";
 
 const Content = ({item}) => {
 
